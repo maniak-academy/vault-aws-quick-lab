@@ -90,7 +90,7 @@ resource "aws_instance" "vault-server" {
     Name = "${var.environment_name}-vault-server-${each.key}"
     instance_name = each.key
     cluster_name = "raft-pov"
-    owner = "sam.gabrail@hashicorp.com"
+    owner = "sebastian@maniak.io"
     TTL = 984
   }
 

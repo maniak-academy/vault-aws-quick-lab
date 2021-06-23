@@ -9,7 +9,7 @@ variable "availability_zones" {
 
 # All resources will be tagged with this
 variable "environment_name" {
-  default = "samg-dev"
+  default = "seb-dev"
 }
 
 variable "vault_transit_private_ip" {
