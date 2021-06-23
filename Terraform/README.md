@@ -71,7 +71,7 @@ Run the following instructions for both the Primary and DR clusters
     ```
     Unseal the Vault node
     ```sh
-    vault operator unseal
+    vault operator unseal Sla2yex/q3Kb1yUfSy2w46xPREEWbTe86cuv6HdSj1M=
     ``` 
 
 2.  Check the current number of servers in the HA Cluster.

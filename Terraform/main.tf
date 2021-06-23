@@ -98,3 +98,4 @@ resource "aws_instance" "vault-server" {
     ignore_changes = [ami, tags]
   }
 }
+
