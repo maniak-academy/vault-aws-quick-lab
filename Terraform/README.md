@@ -7,8 +7,8 @@ These assets are provided to perform the tasks described in the [Vault HA Cluste
 1.  Set your AWS credentials as environment variables:
 
     ```plaintext
-    $ export AWS_ACCESS_KEY_ID="AKIAY7JTXIQUF4BP7HA6"
-    $ export AWS_SECRET_ACCESS_KEY="bEIWqD0qc3cGR38ZExmVKLlifZQecf29kmP1+tQK"
+    $ export AWS_ACCESS_KEY_ID="dddd"
+    $ export AWS_SECRET_ACCESS_KEY="ddddd+tQK"
 
     ```
 
