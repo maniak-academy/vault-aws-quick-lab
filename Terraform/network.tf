@@ -12,18 +12,3 @@ module "vault_demo_vpc" {
     Name = "${var.environment_name}-vpc"
   }
 }
-
-
-resource "aws_lb_target_group" "vault-elb" {
-  name        = "vault-elb"
-  port        = 8200
-  protocol    = "TCP"
-  target_type = "ip"
-  vpc_id      = "vpc-03d128af18c6998c3"
-}
-
-resource "aws_lb_target_group_attachment" "test" {
-  target_group_arn = aws_lb_target_group.test.arn
-  target_id        = aws_instance.test.id
-  port             = 80
-}

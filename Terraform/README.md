@@ -7,8 +7,9 @@ These assets are provided to perform the tasks described in the [Vault HA Cluste
 1.  Set your AWS credentials as environment variables:
 
     ```plaintext
-    $ export AWS_ACCESS_KEY_ID = "<YOUR_AWS_ACCESS_KEY_ID>"
-    $ export AWS_SECRET_ACCESS_KEY = "<YOUR_AWS_SECRET_ACCESS_KEY>"
+    $ export AWS_ACCESS_KEY_ID="AKIAY7JTXIQUF4BP7HA6"
+    $ export AWS_SECRET_ACCESS_KEY="bEIWqD0qc3cGR38ZExmVKLlifZQecf29kmP1+tQK"
+
     ```
 
 1.  Use the provided `terraform.tfvars.example` as a base to create a file named

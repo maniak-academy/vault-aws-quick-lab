@@ -21,14 +21,14 @@ variable "vault_transit_private_ip" {
 variable "vault_server_names" {
   description = "Names of the Vault nodes that will join the cluster"
   type = list(string)
-  default = [ "vault_1", "vault_2", "vault_3", "vault_1_DR", "vault_2_DR", "vault_3_DR" ]
+  default = [ "vault_1", "vault_2", "vault_3"]
 }
 
 variable "vault_server_private_ips" {
   description = "The private ips of the Vault nodes that will join the cluster"
   # @see https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
   type = list(string)
-  default = [ "10.0.101.22", "10.0.101.23", "10.0.101.24", "10.0.101.25", "10.0.101.26", "10.0.101.27" ]
+  default = [ "10.0.101.22", "10.0.101.23", "10.0.101.24" ]
 }
 
 variable "instance_names" {
@@ -37,9 +37,6 @@ variable "instance_names" {
     "vault_1": "10.0.101.22",
     "vault_2": "10.0.101.23",
     "vault_3": "10.0.101.24", 
-    "vault_1_DR": "10.0.101.25",
-    "vault_2_DR": "10.0.101.26",
-    "vault_3_DR": "10.0.101.27",
   }
 }
 
